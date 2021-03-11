@@ -1,0 +1,78 @@
+body {
+	margin: 0 auto;
+background-color: #278770;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  li {
+    float: left;
+    font-weight: bold;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) { 
+    background-color: #111;
+  }
+.txt {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: auto;
+}
+.qd {
+	  background-color: white;
+    width: auto;
+    height: auto;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px 5px black;
+    align-items: center;
+}
+.flex {
+	display: flex;
+}
+.row {
+	flex-direction: row;
+}
+.item {
+	margin: 5px;
+	background: tomato;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 400px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+}
+
+.qdd {
+  background-color: white;
+  width: auto;
+  height: auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow:5px 5px 5px 5px black;
+  align-items: center;
+}
+
+
+#grocura{
+  width: 900px;
+  height: 100px;
+}

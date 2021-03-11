@@ -1,0 +1,72 @@
+body {
+  margin: 0 auto;
+background-color: #278770
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+    font-weight: bold;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .labels {
+    position: relative;
+
+  }
+  .caixinhamae{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+  }
+  
+  .caixinha{
+      background-color: white;
+      width: 390px;
+      height: 160px;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow:5px 5px 5px 5px black;
+      align-items: center;
+      text-align: center;
+  }
+  .caixinha1{
+    background-color: white;
+    width: 390px;
+    height: 160px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow:5px 5px 5px 5px black;
+    align-items: center;
+    text-align: center;
+  }
+  .caixinha2{
+    background-color: white;
+    width: 390px;
+    height: 160px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow:5px 5px 5px 5px black;
+    align-items: center;
+    text-align: center;
+  }
+  #tamanho{
+    width: 900px;
+    height: 100px;
+  } 

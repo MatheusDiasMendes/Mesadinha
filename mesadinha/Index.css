@@ -1,0 +1,30 @@
+
+body {
+	margin: 0 auto;
+    background-color: #278770;
+}
+
+.txt {
+	display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 40vw;
+    width: 100vw;
+}
+.qd {
+	background-color: white;
+    width: 360px;
+    height: 290px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow:5px 5px 5px 5px black;
+}
+.qdd {
+	background-color: white;
+    width: 360px;
+    height: 460px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow:5px 5px 5px 5px black;
+}
